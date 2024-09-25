@@ -1,0 +1,28 @@
+@media screen and (max-width: 676px) {
+    .header-section{
+        flex-direction: column;
+       
+    }
+    .items-container{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-container{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 677px) and (max-width: 992px) {
+    .header-section{
+        flex-direction: column;
+       
+    }
+    .items-container{
+        /* flex-direction: column; */
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-container{
+        justify-content: center;
+    } 
+}

@@ -1,63 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Work Sans", system-ui;
 }
+
 /* navbar style */
-.header{
+.header {
     background-color: #9376e0;
 }
-.header-section{
+
+.header-section {
     max-width: 1250px;
     /* background-color: blueviolet; */
     margin: 0 auto;
     /* border: 2px solid purple; */
     display: flex;
     align-items: center;
-    
+
 }
-.nav-container{
+
+.nav-container {
     /* border: 2px solid red; */
     min-height: 20px;
     display: flex;
     align-items: center;
     width: 50%;
 }
-.nav-container img{
+
+.nav-container img {
     width: 60px;
     object-fit: cover;
 }
-.nav-container p{
+
+.nav-container p {
     font-size: 25px;
     font-weight: 600;
 }
-.special{
+
+.special {
     color: #e893cf;
     font-weight: 900;
 }
-.items-container{
-   /* border: 2px solid yellow; */
+
+.items-container {
+    /* border: 2px solid yellow; */
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.items-container a{
+
+.items-container a {
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
-.login-btn{
+
+.login-btn {
     padding: 10px 20px;
     text-decoration: none;
     border: 0;
     font-size: 20px;
     font-weight: 600;
 }
-.items-container .login-btn{
-   
+
+.items-container .login-btn {
+
     background-color: #e893cf;
     border-radius: 5px;
     color: black;
     text-decoration: none;
+}
+
+/* banner styles */
+.banner-section {
+    max-width: 1250px;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    display: flex;
+   
+}
+
+.text-container {
+    border: 2px solid purple;
+    width: 50%;
+}
+
+.banner-image-container {
+    border: 2px solid green;
+    width: 50%;
 }
